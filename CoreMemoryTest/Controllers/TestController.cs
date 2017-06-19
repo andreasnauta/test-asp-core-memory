@@ -35,7 +35,7 @@ namespace CoreMemoryTest.Controllers
                 await blockBlob.UploadFromStreamAsync(s);
             }
 
-            return Ok("Fíle uploaded");
+            return Ok("File uploaded");
         }
     }
 }
